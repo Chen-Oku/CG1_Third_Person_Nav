@@ -29,6 +29,31 @@ public class PlayerMovement : MonoBehaviour
         moveDirection *= movementSpeed;
         Vector3 movementVelocity = moveDirection; // hace que el movimiento sea mas fluido
         playerRigidbody.linearVelocity = movementVelocity;
-        
+
+    }
+
+    private void HandleRotation()
+    {
+        Vector3 targetDirection = Vector3.zero;
+
+            targetDirection = cameraObject.forward * inputManager.verticalInput;
+            targetDirection = moveDirection + cameraObject.right * inputManager.horizontalInput;
+            targetDirection.y = 0;
+
+            targetDirection.Normalize();
+
+        if (targetDirection == Vector3.zero)
+            targetDirection = transform.forward;
+
+        Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
+        Quaternion playerRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        transform.rotation = playerRotation;
+
+    }
+
+    public void HandleAllMovement()
+    {
+        HandleMovement();
+        HandleRotation();
     }
 }
