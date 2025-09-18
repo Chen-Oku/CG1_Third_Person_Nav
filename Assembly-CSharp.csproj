@@ -68,6 +68,7 @@
     <Compile Include="Assets\Player\PlayerControls.cs" />
     <Compile Include="Assets\Script\InputManager.cs" />
     <Compile Include="Assets\Script\PlayerManager.cs" />
+    <Compile Include="Assets\ResetBool.cs" />
     <Compile Include="Assets\Script\AnimatorManager.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
   </ItemGroup>
