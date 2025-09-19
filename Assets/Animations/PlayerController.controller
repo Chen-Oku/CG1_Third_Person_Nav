@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInteractingBool: isInteracting
-  isInteractingStatus: 0
+  isInteractingStatus: 1
 --- !u!1107 &1683444058336505205
 AnimatorStateMachine:
   serializedVersion: 6

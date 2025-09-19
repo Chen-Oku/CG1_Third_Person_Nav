@@ -75,7 +75,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void HandleAllMovement()
     {
-        if (playerManager.isInteracting)
+        HandleFallingAndLanding();
+
+        if (playerManager.isInteracting)    
             return;
         HandleMovement();
         HandleRotation();
