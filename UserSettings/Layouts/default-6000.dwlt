@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1007
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 382}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 31
+  controlID: 149
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 102
+  controlID: 59
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -3.9118383, y: -4.3776236, z: 4.8630676}
+    m_Target: {x: 178.57391, y: 1.6186559, z: 60.394997}
     speed: 2
     m_Value: {x: -3.9118383, y: -4.3776236, z: 4.8630676}
   m_RenderMode: 0
@@ -1119,13 +1119,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06659149, y: 0.91857517, z: -0.3476559, w: 0.17600241}
+    m_Target: {x: -0.107571974, y: 0.86430806, z: -0.20903954, w: -0.44470188}
     speed: 2
-    m_Value: {x: 0.065026425, y: 0.92011267, z: -0.34508553, w: 0.17343688}
+    m_Value: {x: 0.06659149, y: 0.91857517, z: -0.3476559, w: 0.17600241}
   m_Size:
-    m_Target: 8.752894
+    m_Target: 2.079953
     speed: 2
-    m_Value: 8.375976
+    m_Value: 8.752894
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1198,9 +1198,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e243ffff
-      m_LastClickedID: -48158
-      m_ExpandedIDs: aa6effff468effff
+      m_SelectedIDs: dae20000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1272,7 +1272,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1282,16 +1282,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Usuario\Documents\CG1_Third_Person_Nav
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f0120100
-    m_LastClickedID: 70384
-    m_ExpandedIDs: 000000000a120100021301007e1301008213010000ca9a3bffffff7f
+    m_SelectedIDs: 4ee50000
+    m_LastClickedID: 58702
+    m_ExpandedIDs: 00000000d2e20000d4e20000d6e20000d8e2000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1320,7 +1320,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a120100
+    m_ExpandedIDs: 00000000d2e20000d4e20000d6e20000d8e20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
